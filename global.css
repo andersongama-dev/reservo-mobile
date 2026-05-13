@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary-500: 10 126 164;
+  --color-primary-700: 8 107 140;
+
+  --color-background-0: 255 255 255;
+  --color-background-50: 248 249 250;
+  --color-background-100: 241 243 245;
+  --color-background-200: 233 236 239;
+  --color-background-300: 222 226 230;
+  --color-background-900: 21 23 24;
+
+  --color-typography-100: 236 237 238;
+  --color-typography-300: 155 161 166;
+  --color-typography-500: 104 112 118;
+  --color-typography-900: 17 24 28;
+
+  --color-outline-400: 104 112 118;
+
+  --color-indicator-primary: 10 126 164;
+
+  --color-error-700: 220 38 38;
+  --color-indicator-error: 220 38 38;
+}
+
+.dark {
+  --color-primary-500: 255 255 255;
+  --color-primary-700: 230 230 230;
+
+  --color-background-0: 21 23 24;
+  --color-background-50: 30 32 33;
+  --color-background-100: 40 42 43;
+  --color-background-200: 50 52 53;
+  --color-background-300: 60 62 63;
+  --color-background-900: 255 255 255;
+
+  --color-typography-100: 236 237 238;
+  --color-typography-300: 155 161 166;
+  --color-typography-500: 104 112 118;
+  --color-typography-900: 255 255 255;
+
+  --color-outline-400: 155 161 166;
+
+  --color-indicator-primary: 255 255 255;
+
+  --color-error-700: 248 113 113;
+  --color-indicator-error: 248 113 113;
+}
