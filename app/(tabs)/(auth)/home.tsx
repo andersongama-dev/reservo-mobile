@@ -73,7 +73,7 @@ export default function HomeScreen() {
       </View>
 
       <Pressable
-        onPress={() => router.push("/(tabs)/login")}
+        onPress={() => router.push("/(tabs)/(auth)/login")}
         style={{
           backgroundColor: primary,
           paddingVertical: 18,

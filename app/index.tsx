@@ -1,4 +1,4 @@
-import HomeScreen from "./(tabs)/home";
+import HomeScreen from "./(tabs)/(auth)/home";
 
 export default function Index() {
   return <HomeScreen></HomeScreen>;
