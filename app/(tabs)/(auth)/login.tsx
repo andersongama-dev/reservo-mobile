@@ -1,5 +1,5 @@
 import { useColorScheme } from "@/hooks/use-color-scheme";
-import { Link } from "expo-router";
+import { Link, useRouter } from "expo-router";
 import React from "react";
 import { Pressable, StatusBar, Text, TextInput, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -7,6 +7,8 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 export default function LoginScreen() {
   const insets = useSafeAreaInsets();
   const colorScheme = useColorScheme();
+
+  const router = useRouter();
 
   const isDark = colorScheme === "dark";
 
@@ -134,6 +136,7 @@ export default function LoginScreen() {
           </Link>
 
           <Pressable
+            onPress={() => router.push("/(tabs)/(tabs)/appointments")}
             style={{
               backgroundColor: primary,
               paddingVertical: 18,
